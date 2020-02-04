@@ -1,0 +1,74 @@
+22:01:19.703000 == Info:   Trying 192.30.252.153...
+22:01:19.703000 == Info: TCP_NODELAY set
+22:01:19.750000 == Info: Connected to sobirov.me (192.30.252.153) port 80 (#0)
+22:01:19.750000 => Send header, 74 bytes (0x4a)
+0000: GET / HTTP/1.1
+0010: Host: sobirov.me
+0022: User-Agent: curl/7.62.0
+003b: Accept: */*
+0048: 
+22:01:19.796000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+22:01:19.796000 <= Recv header, 20 bytes (0x14)
+0000: Server: GitHub.com
+22:01:19.796000 <= Recv header, 37 bytes (0x25)
+0000: Date: Mon, 03 Feb 2020 16:55:13 GMT
+22:01:19.796000 <= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+22:01:19.796000 <= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Sat, 18 Jan 2020 07:11:55 GMT
+22:01:19.796000 <= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+22:01:19.796000 <= Recv header, 24 bytes (0x18)
+0000: ETag: W/"5e22afbb-7b5"
+22:01:19.796000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+22:01:19.796000 <= Recv header, 40 bytes (0x28)
+0000: Expires: Mon, 03 Feb 2020 17:05:13 GMT
+22:01:19.796000 <= Recv header, 28 bytes (0x1c)
+0000: Cache-Control: max-age=600
+22:01:19.796000 <= Recv header, 21 bytes (0x15)
+0000: X-Proxy-Cache: MISS
+22:01:19.796000 <= Recv header, 55 bytes (0x37)
+0000: X-GitHub-Request-Id: ED8E:218D:460824:598C09:5E36A9C0
+22:01:19.796000 <= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1973
+22:01:19.796000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+22:01:19.796000 <= Recv header, 10 bytes (0xa)
+0000: Age: 368
+22:01:19.796000 <= Recv header, 2 bytes (0x2)
+0000: 
+22:01:19.796000 <= Recv data, 1973 bytes (0x7b5)
+0000: <!DOCTYPE html>.<html lang="en">..<head>.  <meta charset="UTF-8"
+0040: >.  <meta name="viewport" content="width=device-width, initial-s
+0080: cale=1.0">.  <meta http-equiv="X-UA-Compatible" content="ie=edge
+00c0: ">.  <link rel="stylesheet" href="https://use.fontawesome.com/re
+0100: leases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih2
+0140: 7bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ".    crossorigin="
+0180: anonymous">..  <link rel="stylesheet" href="css/main.css">.  <ti
+01c0: tle>Welcome To My Portfolio</title>.</head>..<body id="bg-img">.
+0200:   <header>.    <div class="menu-btn">.      <div class="btn-line
+0240: "></div>.      <div class="btn-line"></div>.      <div class="bt
+0280: n-line"></div>.    </div>..    <nav class="menu">.      <div cla
+02c0: ss="menu-branding">.        <div class="portrait"></div>.      <
+0300: /div>.      <ul class="menu-nav">.        <li class="nav-item cu
+0340: rrent">.          <a href="index.html" class="nav-link">.       
+0380:      Home.          </a>.        </li>.        <li class="nav-it
+03c0: em">.          <a href="about.html" class="nav-link">.          
+0400:   About Me.          </a>.        </li>.        <li class="nav-i
+0440: tem">.          <a href="work.html" class="nav-link">.          
+0480:   My Work.          </a>.        </li>.        <li class="nav-it
+04c0: em">.          <a href="contact.html" class="nav-link">.        
+0500:     How To Reach Me.          </a>.        </li>.      </ul>.   
+0540:  </nav>.  </header>..  <main id="home">.    <h1 class="lg-headin
+0580: g">.      Sobirov.      <span class="text-secondary">Islom</span
+05c0: >.    </h1>.    <h2 class="sm-heading">.      Web Developer, Pro
+0600: grammer & Entrepreneur.    </h2>.    <div class="icons">.      <
+0640: a href="#!">.        <i class="fab fa-twitter fa-2x"></i>.      
+0680: </a>.      <a href="#!">.        <i class="fab fa-facebook fa-2x
+06c0: "></i>.      </a>.      <a href="#!">.        <i class="fab fa-l
+0700: inkedin fa-2x"></i>.      </a>.      <a href="#!">.        <i cl
+0740: ass="fab fa-github fa-2x"></i>.      </a>.    </div>.  </main>..
+0780:   <script src="js/main.js"></script>.</body>..</html>
+22:01:19.796000 == Info: Connection #0 to host sobirov.me left intact
